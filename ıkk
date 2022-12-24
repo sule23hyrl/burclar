@@ -1,0 +1,110 @@
+#burc yorumu
+    burc = str(input("burcunu gir: "))
+    
+    if burc == "aslan":
+        print("Aslan kraldır, önderdir. Başkalarının yaşantılarını da onlar adına düzenlemek isterler. Her şeye karışırlar, kibirlidirler. Bu nedenle onları tanımlayan sözcük 'Yönetirim' dir. Yaşam sahnesinde her zaman parlayarak, odak noktası olmak isterler. Organizasyon güçleri çok fazladır. İsteklerini başkalarına kabul ettirmek, onlar için yaşamlarının 'olmazsa olmaz' şartıdır. İyi zamanlarında etkileyici, güler yüzlü, başkalarına yardım etmeyi seven ve bunu kendine görev sayan Aslan'lar sevimli ve iyimser kişilerdir. Ona karşı hatalı davransanız bile, size olgun bir şekilde tepki verir. Fakat; Sabrı taştıktan sonra, dürüst ve mert, gerektiğinde sert bir şekilde tavır gösterir. Zor günlerinde şansları onlara her zaman yardım eder. Yönetici gezegenleri Güneş onları en karanlık günlerinde aydınlığa çıkarır. Eğitimsiz ve gelişmemiş Aslan tipleri çekilmez olurlar. Her konuda sahip olduklarından daha fazlası varmış gibi davranırlar.")
+        
+        a = input("ay seçiniz: ")
+        if a == "ocak":
+            print(" Çalışma hayatındaki yer değişikliği ile yeni maratona başlıyorsun. Gururun okşanacak ve terfi alacaksın. Duygularını ifade edemiyorsun, fakat son noktaya geldin. Yeni bir döngü için kurallarından ödün vermen gerekiyor.")
+        elif a == "şubat": 
+            print("Sevgili Aslan burçları ve yükselen burcu Aslan olanlar; Şubat ayı sizin iş ve aşk hayatınızın büyük ölçüde değişim göstereceği bir ay olacaktır. Özellikle Venüs'ün Kova burcuna girmesiyle bu ay başlayacağınız ilişkilerde bazı toparlanmalar yaşarken yeni tanışmalar da söz konusu olabilir.")
+        elif a== "mart":
+            print("Sevgili Aslanlar ve yükselen burcu Aslan olanlar, mart ayı sizin için oldukça bereketli bir şekilde başlıyor. 2 Mart’ta Balık burcunda gerçekleşecek yeni ay ikili ilişkileriniz ve buna bağlı ekonomik durumunuzla ilgili iyileştirici etkiler getiriyor. Kendinizden taviz verdiğiniz veya net bir planla ilerleyemediğiniz konularda yeni bir sayfa açıyorsunuz. Bu kez, en çok da kendi değerleriniz için bir savaş vereceksiniz. Yönetici gezegeniniz Güneş’in Balık burcundaki Jüpiter ile kavuşumu, kendinizi motive etmek ve hangi yoldan gideceğinizi görmek konusunda sizi destekliyor. İmkanlar iyi ihtimaller doğurabilir. İş hayatınızda yeni bir yola giriyorsunuz. Bu ay eski sizi üzen ne varsa adeta rövanşını alacaksınız.")
+        elif a =="nisan":
+            print("Bu ay isteklerinizin gerçekleşmesi için planlarınızı sistemli bir şekilde uygulamalısınız. Pratik ve hızlı düşünceler içinde olacağınız için meraklı ve amaçlarınıza uygun hareket edeceksiniz. Başkalarının paralarından faydalanabilirsiniz. Çevresel etkinlikler nedeniyle istenemeyen harcamalar da söz konusu olabilir. Yollardan gelen misafirlerinizi ağırlamak adına bazı masrafları gözden çıkarabilirsiniz. Öğrenme içgüdünüz oldukça yüksek. Bu hafta her türlü riskten ve spekülasyondan uzak kalmalısınız. Yaratıcılığınızın kısıtlandığını hissedeceğiniz bir hafta.")
+        elif a== "mayıs":
+            print("2022 Mayıs ayına girmeden hemen önce Boğa burcunda bir Güneş Tutulması yaşadık. Kariyer hayatınızda önemli bir başlangıç yapmış olabilirsiniz. Bu başlangıç belki kısa süreliğine de olsa bir yer değişikliğini tetikleyebilir.")
+        elif a =="haziran":
+            print("13 Haziran'a kadar Merkür kariyer evinizde. Bu ay sosyal enerjiniz oldukça yüksek. Çevrenizle barışık olmanıza rağmen, şartlarınızı zorlayacak koşullarla karşınıza çıkacak insanlara karşı dikkatli olmalısınız.")
+        elif a=="temmuz":
+            print("Bu ay daha esnek olmalı, eksik kalan işlerinizi tamamlamalı, yeni fırsatlar yaratma yerine eskileri akıllıca değerlendirmelisiniz. Ay boyunca Mars, ruhsal evinizde kalacak ve size yabancı konularını açacak. Aile ve yuva evinizde ilerleyecek.")
+        elif a =="ağustos":
+            print("Mars ve Uranüs’ün Boğa burcunda kavuşması, işinizde ve garanti gördüğünüz konularda değişiklik getirebilir. Ertelediğiniz konulara karşı kayıtsız kalmayın. Para ve iş konularında şanslısınız, yeni kazanç elde edebilirsiniz. İletişiminizde profesyonel olun. Uranüs’ün Boğa burcundaki retrosu, çalışma koşullarınıza farklılık getiriyor. Yarım bıraktığınız veya geçmişte kalmış eski konularla ilgilenebilirsiniz. Ani değişikliklere karşı dikkatli tepkiler verin.")
+        elif a =="eylül":
+            print("Eylül ayının ilk haftası genelde sizin için resmi işlerle ilgili olarak ilerleyebilir. Bu süreçte borçlanma ve kredi konularında biraz daha temkinli olun derim. Ayın ikinci yarısında kısa vadeli planlar konusunda zamanınızı alacak gelişmeler olabilir. Aynı zamanda yakın çevrenizle ilgili olarak gelişmeleri de takip edebilirsiniz.")
+        elif a =="ekim":
+            print("Güvensizlik duygusu içinde olabilirsiniz. Durum değerlendirmesi yaparken, kendi mantığınızı savunan ve olaylara farklı bir felsefeyle yaklaşan bir yapınız var. Bulunduğunuz grupları, etkileyici konuşmalarınızla ikna edeceksiniz.")
+        elif a =="kasım":
+            print("Maddi konulara güven duymadığınız bir dönem. 19 Kasım'da kariyer evinizde ay tutulması gerçekleşiyor. Kendinizi sorguluyor ve yeni iş fırsatları yakalamak istiyorsunuz. Beklentilerinizin yoğun olduğu bir dönem.")
+        elif a =="aralık":
+            print("Sevgili Aslanlar ve yükselen burcu Aslan olanlar, Neptün’ün Balık burcunda ileri hareketine başlaması özgüveninizi geliştiriyor. Bildiklerinizi daha kolay bir şekilde uygularken yanlış kişilerden destek aldığını düşünebilirsiniz.")
+    elif burc== "yay":
+        b =input("ay seçiniz: ")
+        if b =="ocak":
+            print("Hayatına devam edebilmek için bu sorunları çözmeye odaklanmak isteyebilirsin. Eski ilişkilerinden gelen birileri seni yoğun duygulara sürükleyebilir. Sana tavsiyemiz bu olayları kapıları tamamen kapatmak için fırsat olarak görmen ve yeni yıla tazelenerek girmek için elinden geleni yapman.")
+        elif b=="şubat":
+            print("Bu ay yakın çevrenizle kurmuş olduğunuz ilişkiye dikkatiniz çekilebilir. Özellikle yakınlarınızdan birilerinin size olan tavırlarında bir değişiklik gözlemlerseniz şaşırmayın. Ayın ortalarında bazı planlarınızın değişebilme olasılığı da söz konusu. O nedenle şubat ayı boyunca daha esnek bir programda yürümenizi tavsiye ederim.")
+        elif b=="mart":
+            print("Sevgili Yaylar ve yükselen burcu Yay olanlar, yeterli olmadığınızı düşünürken aslında fazlasıyla kazançlı çıkacağınız bir mart ayına giriyorsunuz. 2 Mart’ta gerçekleşecek Balık yeni ayı ile ev ve yuva kavramı üzerinde daha fazla düşünebilirsiniz. Eviniz ya da ailenizle ilgili sorumluluklar alabilir, aile üyelerinizle olan ilişkinizi iyileştirmek adına birlikte seyahatler düzenleyebilir, evinizin dekorasyonuyla ilgilenebilirsiniz. Diğer yandan, kendi ailenizi kurmakla ilgili adımlar da atabilirsiniz. Güneş ve Jüpiter’in Balık burcunda bir araya gelmesi, buradaki şansınızı katlıyor ve verdiğiniz çabayla eşdeğer sürprizleri saklıyor. Gayrimenkul alımından evlilik düşüncelerinize kadar birçok konuda iyi fırsatlar elde edebilirsiniz.")
+        elif b=="nisan":
+            print("Merhaba sevgili Yaylar ve yükselen burcu Yay olanlar. Ayın ilk döneminde daha çok dikkatinizi aşk ve çocuk meseleleri çekecek ve ayın ortalarında, grup halinde yapılacak etkinliklere, davetlere vb. katılmanız söz konusu olabilir. Buradan maddi anlamda güzel gelişmeler çıkabilir ay sonunda sağlık konusuna dikkat edin derim.")
+        elif b=="mayıs":
+            print("Yönetici gezegeniniz Jüpiter’in Venüs ile yapacağı kavuşumla birlikte ev hayatınız ve yaşam alanlarınızda büyük değişimlere hazır olun. Bu ilişkilerinizi iyileştiren türden bir değişim olabileceği gibi, aile büyükleriniz aracılığıyla sahip olacağınız imkanlarla da mümkün olabilir. Özellikle ev sahibi olmak, kalıcı bir yatırım seçeneği oluşturmak adına olumlu bir zamandasınız. Aynı hafta içinde Venüs’ün Koç burcuna geçmesi, Ay’ın İkizler burcunda seyredecek olması aşk hayatınızdaki olumlu gelişmeleri hazırlayabilir. Kendinizi özgür ve isteklerinizi gerçekleştirirken bulabilir, bu sayede duygusal etkileşimlere daha hazır olabilirsiniz.")
+        elif b=="haziran":
+            print(" Bu ay size “Ben kimim, neredeyim, ne yapıyorum?” sorularını tekrar sordurtabilir ve bu merkezde bazı kararlarda almanız olası. Ayın sonlarına doğru, borç alıp verme, bankacılık, krediler gibi konularda daha temkinli davranmanızı ve har vurup harman savurmamanız kesinlikle tavsiye ederim.")
+        elif b=="temmuz":
+            print("Ay boyunca Satürn, Neptün ve Plüton geri gidiyor. Gireceğiniz topluluklarda karşılaşacağınız eski ilişkilerinizin tekrar karşınıza çıkması ve bu kişilerden etkilenmeniz size hareket kazandıracaktır.")
+        elif b=="ağustos":
+            print("Ağustos ayı sizi ilk olarak aile, kardeş, akraba, komşu gibi yakın çevre ile olan ilişkileriniz, her türlü görsel ve sözel iletişim, halkla ilişkiler, pazarlama, tanıtım ve kısa yollar, kısa vadeli planlarınızda değişime dönüşüme götürürken; ay sonuna doğru ise kariyer ve toplumsal saygınlık ve tanınmışlığınız, organizasyon, yönetim ve iktidar kurduğunuz alanlar, aynı zamanda gelecek ile ilgili hedefleriniz ve işinizle ilgili konularda kendinizi koştururken bulabilirsiniz.")
+        elif b=="eylül":
+            print("Eylül ayı size ilk etapta gayri menkul konularında enteresan gelişmeler getirebilir. Ev alabilir, satabilir veya kiralama ile ilgili mevzulara balıklama dalabilirsiniz. Ayın ikinci yarısında ise kendinizi daha çok dışa dönük hissedebilir ve yeni arkadaşlıklar, dostluklar, ilişkiler kurabilirsiniz.  Dengeli bir üslup kullanın derim.")
+        elif b=="ekim":
+            print("Ekim ayının ilk yarısı sizin için aşk demekte. Bu konuda kafa karışıklığı yaşamanız söz konusu olabilir. Ayın ikinci yarısında ise tutulmanın da etkisiyle daha çok psikolojinizle ilgili meseleler gündem kazanabilir. Ruh sağlığına dikkat!")
+        elif b=="kasım":
+            print("Yay burcunda 24 Kasım'da gerçekleşecek Yeni Ay ile sizi zorlayan insanlardan koparak ilişkilerinizde rahat bir nefes alıyorsunuz. Jüpiter'in ileri hareketini Balık burcunda sürdürmesi, iş hayatınızdaki insanların destekleri sayesinde fırsatları görmenizi kolaylaştırabilir.")
+        elif b=="aralık":
+            print("Aralık ayında hedefleriniz doğrultusunda hareket etmenin avantajlarını kullanmalısınız. Birçok olumlu pozisyon sizi bekliyor. Karşılaşacağınız engellerle mücadele edecek güçtesiniz. Kendinize ait doğrularınızdan emin olmak için, çevrenizi sınamak isteyeceksiniz.")
+    elif burc== "koç":
+        c =input("ay seçiniz: ")
+        if c =="ocak":
+            print("Bu süreçte kendini etrafından biraz soyutlamak isteyebilirsin. Ama sana tavsiyemiz bu dönem biraz kendi iç sesini dinlemen. Mars'ın etkisiyle bu ay dizginleri ele alarak yılın tüm planlarını etkili bir şekilde tamamlayabilirsin. Ayrıca bu ay kendini her yönden çok daha enerjik hissedebilirsin.")
+        elif c=="şubat":
+            print("Gökyüzü bu ay size temalarını birebir yaşatacak diyebiliriz. Özellikle ayın ilk yarısında kendinizi yeni işlerin ve kendinizi daha çok ortaya koyabileceğiniz durumların içinde bulabilirsiniz. Ayın ikinci yarısında ise iş biraz daha duygusal hayatınıza yönlenecek o nedenle romantizme yüreğinizi açın derim.")
+        elif c=="mart":
+            print("Daha çok sağlık konuları ile ilgilenmek ve dinlenmek için bir fırsat olarak düşünebilirsiniz. Ve bir geri çekilme zamanı olarak kullanabilirsiniz. 2 Mart tarihinde Balık burcundaki yeniayi ile aya başlıyoruz. Sağlığınız için sizi yeni bir adım atmaya itebilir.")
+        elif c=="nisan":
+            print("Ayın ilk dönemi sizin için parlak geçecek diyebiliriz. Dolunay ise ikili ilişkiler konularda temkinli olmanızı söylerken ay sonunda yaşayacağınız Güneş tutulması, para konusunda sizi hareketlendirecek diyebiliriz. Maddi konularda bu ay daha dikkatli olun.")
+        elif c=="mayıs":
+            print("Venüs’ün burcunuza geçmesiyle kendinizi mental ve fiziksel olarak zinde hissedeceğiniz, enerjinizin ve ışığınızın parlak olacağı bir döneme giriyorsunuz. Cesur ve enerjik haliniz ilişkilerinizde de etkisini gösterecek; yeni bir ilişkiye başlamak, yeni insanlarla bir araya gelmek bu dönemin en önemli gündem maddesi olacaktır. Kazanç kaynaklarınız ve iş olanaklarınızda şaşırtıcı gündemleriniz olabilir. Kendinizi farklı bir işin hazırlığını yaparken bulabilir, zorla sürdürdüğünüz çalışmalardan sıyrılabilirsiniz.")
+        elif c=="haziran":
+            print(" Çevrenizdeki kişilerle olan ilişkilerinizi sorgulayabilirsiniz. Bazı kişilerle geçmişten kapanmamış meseleleriniz gündeme gelebilir, bunlara tekrar bakmanız gerekiyor olabilir. 13 Haziran'da Merkür, 23 Haziran'da ise Venüs İkizler burcuna geçiyor.")
+        elif c=="temmuz":
+            print("İyi para kazanabilir ama çok para da harcamak zorunda kalabilirsiniz. Aile içinde iletişiminiz artabilir ve ailenizle , evinizle ilgili yeni kararlar alabilirsiniz. Temmuz ayının ikinci yarısında seyahat, yurt dışı, eğitim ve hukuk konularıyla daha çok ilgilenebilirsiniz.")
+        elif c=="ağustos":
+            print("Ağustos ayı sizi ilk olarak aile, kardeş, akraba, komşu gibi yakın çevre ile olan ilişkileriniz, her türlü görsel ve sözel iletişim, halkla ilişkiler, pazarlama, tanıtım ve kısa yollar, kısa vadeli planlarınızda değişime dönüşüme götürürken; ay sonuna doğru ise kariyer ve toplumsal saygınlık ve tanınmışlığınız, organizasyon, yönetim ve iktidar kurduğunuz alanlar, aynı zamanda gelecek ile ilgili hedefleriniz ve işinizle ilgili konularda kendinizi koştururken bulabilirsiniz.")
+        elif c=="eylül":
+            print("Sevdiklerinizle birlikte ortak duygu birliği içinde olsanız bile, aranızda oluşabilecek sürtüşmelere engel olamayacaksınız. Geçmiş olaylar yüzünden tartışabilirsiniz. Belki de uzun süredir bir türlü kopamadığınız bir arkadaşınızla yollarınızı ayırabilirsiniz.")
+        elif c=="ekim":
+            print("Canınızın sıkılmasına neden olacak olaylardan uzak kalmaya çalışın. Arkadaş çevrenizde size ilgisi olan bir kişi dikkatinizi çekebilir. Dostlukların aşka dönüşmemesi, sizin tavırlarınız karşısında şekil alacaktır. İlişkilerinize zaman tanıyın ve fevri hareket etmeyin.")
+        elif c=="kasım":
+            print("Bu ay iş disiplininizi mükemmel bir şekilde sergileyeceksiniz. 19 Kasım'da finans evinizde ay tutulması gerçekleşiyor. Hırslı yönleriniz ortaya çıkıyor. Toplumda ön plana çıkacağınız işler planlıyorsunuz. İş hayatınızda gizliliği tercih etmelisiniz.")
+        elif c=="aralık":
+            print("Sevgili Koçlar ve yükselen burcu Koç olanlar, Neptün’ün Balık burcundaki ileri hareketine başlamasıyla, içinizde yaşadığınız belirsizlikleri sonlandırıyorsunuz. Hayatınızdaki saplantılı problemlere ve ilişkilere şekil vermeniz ve önünüzü görmeniz size yeni yaşama motivasyonları katabilir.")        
+            
+    
+    a = input("burcunu gir: ")
+    if a == "aslan":
+        print("Aslan kraldır, önderdir. Başkalarının yaşantılarını da onlar adına düzenlemek isterler. Her şeye karışırlar, kibirlidirler. Bu nedenle onları tanımlayan sözcük 'Yönetirim' dir. Yaşam sahnesinde her zaman parlayarak, odak noktası olmak isterler. Organizasyon güçleri çok fazladır. İsteklerini başkalarına kabul ettirmek, onlar için yaşamlarının 'olmazsa olmaz' şartıdır. İyi zamanlarında etkileyici, güler yüzlü, başkalarına yardım etmeyi seven ve bunu kendine görev sayan Aslan'lar sevimli ve iyimser kişilerdir. Ona karşı hatalı davransanız bile, size olgun bir şekilde tepki verir. Fakat; Sabrı taştıktan sonra, dürüst ve mert, gerektiğinde sert bir şekilde tavır gösterir. Zor günlerinde şansları onlara her zaman yardım eder. Yönetici gezegenleri Güneş onları en karanlık günlerinde aydınlığa çıkarır. Eğitimsiz ve gelişmemiş Aslan tipleri çekilmez olurlar. Her konuda sahip olduklarından daha fazlası varmış gibi davranırlar.")
+    elif a == "balik":
+        print("Balık burcu olan kişiler genel olarak sabırlı, eli açık ve de duyarlı olan insanlardır. Bu kişilerin her daim büyük bir inandırma yetenekleri bulunmaktadır. Dürüst, sadık, vicdan sahibi ve de uysaldırlar. Her çevreye kolay bir şekilde ayak uydurabilirler.")
+    elif a=="yay":
+        print("Yay erkil, maceraperest ve risk almaktan, hayata açık durmaktan keyif alan bir burçtur. Burcun sembolünde ileri doğru atılan ok, bu burcun geçmişi değil, geleceğe yönelik olduğunu gösterir. Pozitif ve hayatı olduğu gibi kabul eden tutumları ile Yay'lar keyif veren, geniş görüşlü ve eğlendirici partnerlerdir.")
+    elif a=="basak":
+        print("Başak'lar çalışkan ve pratik insanlar olup, yaşamlarındaki en önemli konu İş' tir. Güvendikleri kişilere yardım etmeyi sevmelerine rağmen, inanmadıkları ve tembel olduklarını bildikleri kişilere karşı soğuk davranırlar. Yaşamları boyunca dinlenmeden çalışırlar. Onların dinlenme biçimi bile başkalarına yorucu gelebilir.")
+    elif a=="boga":
+        print("Boğa'lar hedefleri doğrultusunda ilerlerken, tüm dikkatlerini toplayabilme yeteneklerinin yanında maddecilikleri ile tanınırlar. SAHİP olma onların yaşam gerçekleridir. Bireysel ilişkiler konusunda son derece güvenilir olan Boğa'lar, insanlara yardım etmekten hoşlanırlar.")
+    elif a=="kova":
+        print("Kova burcu insanları sevecen tavırları ile tanınırlar. Bu kişiler bencil değildirler. Irk, cinsiyet ve sosyal durumuna bakmaksızın, herkesin ayni olanaklara sahip olmasını isterler. Modern görünüşlerine karşın, inatçı ve sabit fikirli olurlar.")
+    elif a=="ikizler":
+        print("İkizler burcuna sahip olan kişiler genel anlamda zeki, kararsız ve hızlı karar değiştiren, ortamlara kolaylıkla uyum sağlayabilen, keşfetmeyi seven ve meraklı, sempatik, iletişim kurmaktan mutluluk duyan, kültürlü, kibar ve mantıklı yapıda olurlar.")
+    elif a=="yengec":
+        print("Yengeç'ler duygusallıkları ve duyarlılıkları ile tanınırlar. Çevresindeki her insandan da ayni hassasiyeti bekledikleri için, kolay geçinilir tipler değildir. İyi günlerinde neşeli, iyi kalpli, yardımsever, düşünceli ve anlayışlıdırlar. Fakat herhangi belirgin bir neden olmadan somurtkan ve alıngan olabilirler.")
+    elif a=="terazi":
+        print("Terazi burçları genel olarak akıllı, mantıklı ve aşk dolu özelliklere sahiplerdir. Terazi burçları hayallerine ulaşmak için çok çalışırlar. Terazi burçları genel olarak uzlaşı yanlısı ve kibar özellikleri ile bilinirler. İlişkilerinde adil olan terazi burçları mantıkları ile birlikte hareket ederler.")
+    elif a=="koc":
+        print("Koç, Burçlar kuşağının ilk burcudur. Hareketli ve enerjik oluşları ile tanınırlar. Ben egoları çok fazla gelişmiştir. BEN, onların aynası olmuştur adeta. Bu burçta doğanlar çok pratiktirler. Olaylar karşısında coşkularını gizleyemezler.")
+    elif a=="oglak":
+        print("Oğlaklar ciddilikleri, tutuculukları ve güçlü iradeleri ile tanımlanırlar. Çalışkanlıkları ile kolaylıkla başkalarının saygısını kazanırlar. Gerçek bir Oğlak'ın iki temel özelliği vardır. Güvenilirlik ve dürüstlük.")
+    elif a=="akrep" or a == "Akrep"  :
+        print("Akrep burcu özellikleri: Mücadeleci, güçlü, yılmaz, hırslı kişilerdir. Pes ettiğini düşündüğünüz anda küllerinden yeniden doğabilir. Güvenilir, kaliteli insanlardır. Akrep burcu erkeği: Şeytan tüyü de denilebilecek farklı bir gizem, manyetizma ve çekiciliğe sahiptirler.")
